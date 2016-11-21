@@ -20,7 +20,6 @@ loop:
 							#END OF PRINT BLOCK
 	
 	addi $t2, $t2, 2
-	addi $t1, $t1, 1  		# add 1 to t1
 	j loop
 end:
 							#PRINTING BLOCK
