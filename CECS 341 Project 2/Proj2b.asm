@@ -4,8 +4,8 @@ memory: .word
 
 	.text
 	
-	li $t0, 10 		#
-	li $t2, 2 		#intialize $t2 with 2 like i = 2 in C
+	li $t0, 10 			#intialize $t0 with max value which is 10	
+	li $t2, 2 			#intialize $t2 with 2 like i = 2 in C
 	la $t3, memory		#store memory address into register $t3
 	
 loop:
